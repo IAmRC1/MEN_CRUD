@@ -12,7 +12,7 @@ const Post = mongoose.model('Post', {
     trim: true,
     required: true
   },
-  date: { 
+  createdAt: { 
     type: Date, 
     default: Date.now
   },

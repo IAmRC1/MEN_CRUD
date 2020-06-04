@@ -41,7 +41,7 @@ app.use((req, res, next) => {
 
 // test route to make sure everything is working (accessed at GET http://localhost:8080/api)
 app.get('/', (req, res, next) => {
-	res.json({ message: 'hooray! welcome to our api!' });	
+	res.json({ message: 'Hooray! Welcome to our api!' });	
 });
 
 const postRouter = require('./routes/post.routes')
